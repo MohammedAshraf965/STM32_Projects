@@ -24,6 +24,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  D:/MCTR\ Softwares/STMCube/STMCube\ IDE/STM32CubeIDE_1.14.0/STM32CubeIDE/Projects/Smart_Home/Drivers/ECU_Drivers/ecu_layer_init.h \
  D:/MCTR\ Softwares/STMCube/STMCube\ IDE/STM32CubeIDE_1.14.0/STM32CubeIDE/Projects/Smart_Home/Drivers/ECU_Drivers/Inc/led.h \
  D:/MCTR\ Softwares/STMCube/STMCube\ IDE/STM32CubeIDE_1.14.0/STM32CubeIDE/Projects/Smart_Home/Drivers/ECU_Drivers/Inc/../Std_Types.h \
@@ -55,6 +57,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 D:/MCTR\ Softwares/STMCube/STMCube\ IDE/STM32CubeIDE_1.14.0/STM32CubeIDE/Projects/Smart_Home/Drivers/ECU_Drivers/ecu_layer_init.h:
 D:/MCTR\ Softwares/STMCube/STMCube\ IDE/STM32CubeIDE_1.14.0/STM32CubeIDE/Projects/Smart_Home/Drivers/ECU_Drivers/Inc/led.h:
 D:/MCTR\ Softwares/STMCube/STMCube\ IDE/STM32CubeIDE_1.14.0/STM32CubeIDE/Projects/Smart_Home/Drivers/ECU_Drivers/Inc/../Std_Types.h:

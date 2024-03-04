@@ -26,7 +26,6 @@ OBJCOPY_BIN :=
 SUBDIRS := \
 Core/Src \
 Core/Startup \
-Drivers/CortexM4_Core/Src \
 Drivers/ECU_Drivers/Src \
 Drivers/STM32F4xx_HAL_Driver/Src \
 

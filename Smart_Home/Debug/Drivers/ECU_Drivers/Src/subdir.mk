@@ -10,7 +10,9 @@ C_SRCS += \
 ../Drivers/ECU_Drivers/Src/keypad.c \
 ../Drivers/ECU_Drivers/Src/keypad_cfgType.c \
 ../Drivers/ECU_Drivers/Src/led.c \
-../Drivers/ECU_Drivers/Src/led_cfgType.c 
+../Drivers/ECU_Drivers/Src/led_cfgType.c \
+../Drivers/ECU_Drivers/Src/ultrasonic.c \
+../Drivers/ECU_Drivers/Src/ultrasonic_cfgType.c 
 
 OBJS += \
 ./Drivers/ECU_Drivers/Src/chr_lcd.o \
@@ -18,7 +20,9 @@ OBJS += \
 ./Drivers/ECU_Drivers/Src/keypad.o \
 ./Drivers/ECU_Drivers/Src/keypad_cfgType.o \
 ./Drivers/ECU_Drivers/Src/led.o \
-./Drivers/ECU_Drivers/Src/led_cfgType.o 
+./Drivers/ECU_Drivers/Src/led_cfgType.o \
+./Drivers/ECU_Drivers/Src/ultrasonic.o \
+./Drivers/ECU_Drivers/Src/ultrasonic_cfgType.o 
 
 C_DEPS += \
 ./Drivers/ECU_Drivers/Src/chr_lcd.d \
@@ -26,7 +30,9 @@ C_DEPS += \
 ./Drivers/ECU_Drivers/Src/keypad.d \
 ./Drivers/ECU_Drivers/Src/keypad_cfgType.d \
 ./Drivers/ECU_Drivers/Src/led.d \
-./Drivers/ECU_Drivers/Src/led_cfgType.d 
+./Drivers/ECU_Drivers/Src/led_cfgType.d \
+./Drivers/ECU_Drivers/Src/ultrasonic.d \
+./Drivers/ECU_Drivers/Src/ultrasonic_cfgType.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -36,7 +42,7 @@ Drivers/ECU_Drivers/Src/%.o Drivers/ECU_Drivers/Src/%.su Drivers/ECU_Drivers/Src
 clean: clean-Drivers-2f-ECU_Drivers-2f-Src
 
 clean-Drivers-2f-ECU_Drivers-2f-Src:
-	-$(RM) ./Drivers/ECU_Drivers/Src/chr_lcd.cyclo ./Drivers/ECU_Drivers/Src/chr_lcd.d ./Drivers/ECU_Drivers/Src/chr_lcd.o ./Drivers/ECU_Drivers/Src/chr_lcd.su ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.cyclo ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.d ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.o ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.su ./Drivers/ECU_Drivers/Src/keypad.cyclo ./Drivers/ECU_Drivers/Src/keypad.d ./Drivers/ECU_Drivers/Src/keypad.o ./Drivers/ECU_Drivers/Src/keypad.su ./Drivers/ECU_Drivers/Src/keypad_cfgType.cyclo ./Drivers/ECU_Drivers/Src/keypad_cfgType.d ./Drivers/ECU_Drivers/Src/keypad_cfgType.o ./Drivers/ECU_Drivers/Src/keypad_cfgType.su ./Drivers/ECU_Drivers/Src/led.cyclo ./Drivers/ECU_Drivers/Src/led.d ./Drivers/ECU_Drivers/Src/led.o ./Drivers/ECU_Drivers/Src/led.su ./Drivers/ECU_Drivers/Src/led_cfgType.cyclo ./Drivers/ECU_Drivers/Src/led_cfgType.d ./Drivers/ECU_Drivers/Src/led_cfgType.o ./Drivers/ECU_Drivers/Src/led_cfgType.su
+	-$(RM) ./Drivers/ECU_Drivers/Src/chr_lcd.cyclo ./Drivers/ECU_Drivers/Src/chr_lcd.d ./Drivers/ECU_Drivers/Src/chr_lcd.o ./Drivers/ECU_Drivers/Src/chr_lcd.su ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.cyclo ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.d ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.o ./Drivers/ECU_Drivers/Src/chr_lcd_cfgType.su ./Drivers/ECU_Drivers/Src/keypad.cyclo ./Drivers/ECU_Drivers/Src/keypad.d ./Drivers/ECU_Drivers/Src/keypad.o ./Drivers/ECU_Drivers/Src/keypad.su ./Drivers/ECU_Drivers/Src/keypad_cfgType.cyclo ./Drivers/ECU_Drivers/Src/keypad_cfgType.d ./Drivers/ECU_Drivers/Src/keypad_cfgType.o ./Drivers/ECU_Drivers/Src/keypad_cfgType.su ./Drivers/ECU_Drivers/Src/led.cyclo ./Drivers/ECU_Drivers/Src/led.d ./Drivers/ECU_Drivers/Src/led.o ./Drivers/ECU_Drivers/Src/led.su ./Drivers/ECU_Drivers/Src/led_cfgType.cyclo ./Drivers/ECU_Drivers/Src/led_cfgType.d ./Drivers/ECU_Drivers/Src/led_cfgType.o ./Drivers/ECU_Drivers/Src/led_cfgType.su ./Drivers/ECU_Drivers/Src/ultrasonic.cyclo ./Drivers/ECU_Drivers/Src/ultrasonic.d ./Drivers/ECU_Drivers/Src/ultrasonic.o ./Drivers/ECU_Drivers/Src/ultrasonic.su ./Drivers/ECU_Drivers/Src/ultrasonic_cfgType.cyclo ./Drivers/ECU_Drivers/Src/ultrasonic_cfgType.d ./Drivers/ECU_Drivers/Src/ultrasonic_cfgType.o ./Drivers/ECU_Drivers/Src/ultrasonic_cfgType.su
 
 .PHONY: clean-Drivers-2f-ECU_Drivers-2f-Src
 
