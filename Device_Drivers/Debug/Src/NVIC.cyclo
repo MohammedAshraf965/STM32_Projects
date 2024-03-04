@@ -1,0 +1,5 @@
+../Src/NVIC.c:39:6:NVIC_EnableIRQ	2
+../Src/NVIC.c:54:6:NVIC_DisableIRQ	2
+../Src/NVIC.c:69:6:NVIC_SetPendingIRQ	2
+../Src/NVIC.c:84:6:NVIC_ClearPendingIRQ	2
+../Src/NVIC.c:102:10:NVIC_GetActive	3
